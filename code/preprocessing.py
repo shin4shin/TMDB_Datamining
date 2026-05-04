@@ -9,8 +9,8 @@ warnings.filterwarnings('ignore')
 # ══════════════════════════════════════════
 # 설정
 # ══════════════════════════════════════════
-INPUT_PATH  = r'C:\Users\jinhu\Desktop\월 데이터마이닝\Movie\First_data\TMDB_all_movies.csv'
-OUTPUT_PATH = r'C:\Users\jinhu\Desktop\월 데이터마이닝\Movie\data\tmdb_final.csv'
+INPUT_PATH  = '저장경로\TMDB_all_movies.csv'
+OUTPUT_PATH = '저장경로\tmdb_final.csv'
 
 # data 폴더 없으면 자동 생성
 os.makedirs(r'C:\Users\jinhu\Desktop\월 데이터마이닝\Movie\data', exist_ok=True)
