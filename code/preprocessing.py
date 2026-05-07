@@ -237,7 +237,8 @@ print("\n" + "=" * 50)
 print("최종 결과")
 print("=" * 50)
 
-df.to_csv(OUTPUT_PATH, index=False)
+# 덮어쓰기
+df.to_csv(OUTPUT_PATH, index=False) 
 df_scaled.to_csv(r'C:\Users\jinhu\Desktop\월 데이터마이닝\Movie\data\tmdb_final_scaled.csv', index=False)
 
 print(f"최종 데이터셋: {df.shape[0]:,}행 · {df.shape[1]}컬럼")
